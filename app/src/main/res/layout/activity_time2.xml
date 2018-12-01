@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/imageView3"
+        android:padding="10dip"
+        android:text=" AC Milan tem incríveis 7 títulos da Liga dos Campeões para o próprio nome. E absolutamente, eles são o clube italiano de maior sucesso na competição européia. AC Milan é segunda posição nesta seleção, dos 10 maiores campeões da Liga dos Campeões da Europa. Ele obteve o titulo de 1962–63, 1968–69, 1988–89, 1989–90, 1993–94, 2002–03 e 2006–07."
+        android:textColor="#fd020202" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="35dp"
+        android:layout_marginEnd="73dp"
+        android:text="Play" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="236dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="42dp"
+        app:srcCompat="@drawable/fundomilan" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="-32dp"
+        android:text="2°"
+        android:textColor="#fd1b0776" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="32dp"
+        android:text="----------------- AC MILAN 7 CAMPEONATOS---------------------------"
+        android:textColor="#fd020202" />
+
+
+</RelativeLayout>
